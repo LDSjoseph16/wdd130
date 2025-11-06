@@ -1,0 +1,49 @@
+main {
+    max-width: 840px;
+}
+
+main h1 {
+    color: teal;
+}
+
+nav {
+    background-color: beige;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: underline;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(red, green, blue / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
