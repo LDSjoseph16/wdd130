@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #003f80;
+  --accent1-color: #0066cc;
+  --accent2-color: #eaf3ff;
+  --body-font: Arial, sans-serif;
+}
 
 * {
   margin: 0;
@@ -159,6 +165,7 @@ header nav a.active {
   color: #003f80;
 }
 
+/* FOOTER */
 footer {
   margin-top: 40px;
   padding: 15px;
