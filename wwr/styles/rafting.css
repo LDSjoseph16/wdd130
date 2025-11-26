@@ -1,17 +1,10 @@
-:root {
-  --body-font: Arial, sans-serif;
-  --heading-font: 'Trebuchet MS', sans-serif;
-  --primary-color: #0066cc;
-  --accent1-color: rgba(0, 0, 0, 0.6);
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Layout width */
+
 header, main, footer {
   width: 840px;
   margin: 0 auto;
@@ -21,9 +14,19 @@ body {
   font-family: var(--body-font);
   color: var(--primary-color);
   background-color: #fff;
+  h1 {
+    font-family: Trebuchet MS;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
 }
 
-/* HEADER */
+
 header {
   display: grid;
   grid-template-columns: 120px 1fr;
@@ -60,7 +63,6 @@ header nav a.active {
   color: #fff;
 }
 
-/* HERO */
 .hero {
   position: relative;
   margin-top: 20px;
@@ -91,18 +93,16 @@ header nav a.active {
   background-color: var(--accent1-color);
   padding: 20px;
   color: #fff;
-  display: flex;
-  gap: 15px;
-  align-items: center;
 }
 
 .hero article img {
+  float: right;
   width: 120px;
   height: auto;
   border-radius: 5px;
 }
 
-/* HISTORY */
+
 .history {
   margin-top: 50px;
   padding: 20px;
@@ -126,7 +126,7 @@ header nav a.active {
   border-radius: 8px;
 }
 
-/* ADVENTURE GALLERY */
+
 .adventures {
   margin-top: 40px;
 }
