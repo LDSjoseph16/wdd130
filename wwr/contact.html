@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - White Water Rafting Company</title>
+    <meta name="description" content="Contact White Water Rafting Company for inquiries, reservations, or suggestions.">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.jpeg" alt="WWR Logo" class="logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="company-info">
+            <h1>White Water Rafting Company</h1>
+            <h2>Our Location</h2>
+            <p>55MV+8Q9, Misamis Oriental - Maria Cristina Boundary Rd, Iligan City, Lanao del Norte</p>
+            <p>Phone: 999-888-7777</p>
+            <p>Email: info@mariacristinafalls.com</p>
+        </section>
+
+        <section class="contact-layout">
+            <div class="map-column">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31591.812788418618!2d124.18437370000001!3d8.205107199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32559fab7e18da13%3A0xd03f7fe048acec7!2sMaria%20Cristina%20Falls!5e0!3m2!1sen!2sph!4v1764596230333!5m2!1sen!2sph"
+                    class="map-iframe"
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+
+            <div class="form-column">
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form action="submit_form.php" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                        <p>Purpose of your message:</p>
+                        <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                        <label for="general">General Inquiry</label>
+
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label>
+
+                        <input type="radio" id="website" name="purpose" value="Website Suggestion">
+                        <label for="website">Website Suggestion</label>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="employee-section">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-profiles">
+                <div class="employee-profile">
+                    <img src="images/employee1.jpg" alt="John Smith">
+                    <p>John Smith - Tour Manager</p>
+                </div>
+                <div class="employee-profile">
+                    <img src="images/employee2.jpg" alt="Jane Doe">
+                    <p>Jane Doe - Safety Coordinator</p>
+                </div>
+                <div class="employee-profile">
+                    <img src="images/employee3.jpg" alt="Mike Johnson">
+                    <p>Mike Johnson - Guest Services</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 White Water Rafting | Edgar Joseph Pelinggon</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.jpg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+</html>
