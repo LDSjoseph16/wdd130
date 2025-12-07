@@ -312,11 +312,11 @@ footer .socialmedia img {
 }
 
 
-/* --- START: Home Page (index.html) Styles --- */
+
 
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-columns: 1fr 1fr; 
     gap: 30px;
     margin: 40px auto;
     padding: 20px;
@@ -330,7 +330,7 @@ footer .socialmedia img {
 }
 
 .purpose-card, .offerings-card {
-    background-color: #eaf3ff; /* light blue background */
+    background-color: #eaf3ff;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -344,7 +344,7 @@ footer .socialmedia img {
     margin: 15px 0;
 }
 
-/* Newsletter Section Styling */
+
 .newsletter-section {
     background-color: var(--accent1-color);
     color: #fff;
@@ -388,7 +388,7 @@ footer .socialmedia img {
 }
 
 .newsletter-form button:hover {
-    background-color: #004c99; /* darker primary for hover */
+    background-color: #004c99; 
 }
 
 /* Call to Action Section */
@@ -413,10 +413,7 @@ footer .socialmedia img {
 .cta-section a:hover {
     background-color: var(--accent1-color);
 }
-/* --- END: Home Page (index.html) Styles --- */
 
-
-/* --- START: Trips Page (trips.html) Styles --- */
 .trips-cta {
     background-color: var(--primary-color);
     color: white;
@@ -448,13 +445,13 @@ footer .socialmedia img {
 }
 
 .trips-cta a:hover {
-    background-color: #004c99; /* darker primary for hover */
+    background-color: #004c99;
 }
 
-/* Trip Descriptions Grid */
+
 .trip-descriptions {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
     margin: 40px 0;
 }
@@ -485,7 +482,7 @@ footer .socialmedia img {
 /* Trips Table */
 .trips-table-container {
     margin: 50px 0;
-    overflow-x: auto; /* Allows horizontal scrolling on small screens */
+    overflow-x: auto;
 }
 
 .trips-table-container h2 {
@@ -507,11 +504,11 @@ footer .socialmedia img {
 }
 
 .trips-table tbody tr:nth-child(even) {
-    background-color: #eaf3ff; /* light blue for alternate rows */
+    background-color: #eaf3ff;
 }
 
 .trips-table tbody tr:hover {
-    background-color: #dbeaff; /* slightly darker hover effect */
+    background-color: #dbeaff;
 }
 
 .trips-table td {
