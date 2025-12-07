@@ -4,40 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Edgar Joseph Pelinggon's WDD 130 Project HOME PAGE">
+    <meta name="description"
+        content="Experience thrilling white water rafting adventures on scenic rivers. Book your trip today!">
     <meta name="author" content="Edgar Joseph Pelinggon">
-    <title>WDD 130 | Edgar Joseph Pelinggon</title>                           
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>Home | White Water Rafting</title>
+    <link rel="stylesheet" href="wwr/styles/rafting.css">
 </head>
 
 <body>
     <header>
+        <img src="images/logo.jpeg" alt="WWR Logo" class="logo">
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
+
     <main>
-        <h1> Edgar Joseph Pelinggon | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Joseph Pelinggon" width="200">
-        <p>I am Edgar Joseph Pelinggon! 28 Years old. My mission from 2016 to 2018 was one of the most meaningful
-            experiences of my life. I felt inspired every day as I
-            served and taught the Lord’s children, witnessing how His gospel brings light and change to people’s hearts.
-        </p>
+
+        <section class="hero">
+            <img src="images/rafting-river-home.jpg" alt="A white water rafting team navigating a rapid">
+            <h1>Thrills, Adventure, and Unforgettable Memories</h1>
+            <article>
+                <img src="images/rapids.jpg" alt="Water splashing over a raft">
+                <p>Ready for the rush? Join us for the most exciting white water rafting experiences in the region. We
+                    offer trips for all skill levels, from gentle floats to intense class IV rapids. Safety is our
+                    priority, adventure is our guarantee!</p>
+            </article>
+        </section>
+
+        <section class="home-grid">
+
+            <div class="purpose-card">
+                <h2>Our Purpose: Connect with Nature</h2>
+                <img src="images/family-rafting.jpg" alt="A family enjoying a calm rafting trip">
+                <p>We believe in the power of the river to refresh the mind and spirit. Our guided tours are designed
+                    not just for excitement, but to provide a deep connection with the stunning natural landscapes
+                    surrounding our waterways. Learn about the local ecology and history from our expert guides.</p>
+            </div>
+
+            <div class="offerings-card">
+                <h2>Premier River Offerings</h2>
+                <img src="images/guide-team.jpg" alt="Rafting guide giving instructions to a group">
+                <p>From the challenging currents of **Los Dientes del Diablo** to the serene flows of the **Half Day
+                    Adventure**, we have an outing perfect for you. Every trip includes top-tier safety equipment, a
+                    pre-trip training session, and a delicious riverside lunch. Explore our Trips page to find your
+                    perfect adventure!</p>
+            </div>
+
+        </section>
+
+        <section class="cta-section">
+            <h2>Find Your Perfect Adventure!</h2>
+            <a href="trips.html">Explore Our Exciting Trips</a>
+        </section>
+
+        <section class="newsletter-section">
+            <h2>Stay Updated with Our Newsletters!</h2>
+            <form class="newsletter-form" action="submit_newsletter.php" method="post">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
     </main>
-    <aside>
-        <h2>Philippines</h2>
-        <img src="images/banaue-rice-terraces.jpg" alt="banaue rice terraces">
-        <p>The Banaue Rice Terraces teach us the value of hard work, unity, and respect for nature.
-            Built by the Ifugao people over 2,000 years ago without modern tools, these terraces show how dedication and
-            cooperation
-            can create something lasting and beautiful. They remind us that when we work together in harmony with the
-            land, we can
-            build a sustainable future for generations to come.</p>
-    </aside>
+
     <footer>
-        <p>©2025 👌 Edgar Joseph Pelinggon 👌 Philippines</p>
+        <p>&copy; 2025 White Water Rafting | Edgar Joseph Pelinggon</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.jpg" alt="Instagram Icon">
+            </a>
+        </nav>
     </footer>
+
 </body>
 
 </html>
