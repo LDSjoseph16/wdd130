@@ -312,3 +312,210 @@ footer .socialmedia img {
 }
 
 
+/* --- START: Home Page (index.html) Styles --- */
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 30px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.home-grid h2 {
+    margin-top: 0;
+    text-align: left;
+    border-bottom: 2px solid var(--accent1-color);
+    padding-bottom: 10px;
+}
+
+.purpose-card, .offerings-card {
+    background-color: #eaf3ff; /* light blue background */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: var(--primary-color);
+}
+
+.purpose-card img, .offerings-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+/* Newsletter Section Styling */
+.newsletter-section {
+    background-color: var(--accent1-color);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.newsletter-section h2 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.newsletter-form input[type="text"],
+.newsletter-form input[type="email"] {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    width: 250px;
+    font-family: var(--body-font);
+}
+
+.newsletter-form button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #004c99; /* darker primary for hover */
+}
+
+/* Call to Action Section */
+.cta-section {
+    text-align: center;
+    margin: 40px auto 60px;
+    padding: 20px;
+}
+
+.cta-section a {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-section a:hover {
+    background-color: var(--accent1-color);
+}
+/* --- END: Home Page (index.html) Styles --- */
+
+
+/* --- START: Trips Page (trips.html) Styles --- */
+.trips-cta {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.trips-cta h1 {
+    color: white;
+    font-family: inherit;
+}
+
+.trips-cta p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.trips-cta a {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.trips-cta a:hover {
+    background-color: #004c99; /* darker primary for hover */
+}
+
+/* Trip Descriptions Grid */
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Responsive grid */
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.trip-card {
+    border: 2px solid var(--accent1-color);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f7f9fc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.trip-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.trip-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Trips Table */
+.trips-table-container {
+    margin: 50px 0;
+    overflow-x: auto; /* Allows horizontal scrolling on small screens */
+}
+
+.trips-table-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.trips-table thead th {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+    border: 1px solid #fff;
+}
+
+.trips-table tbody tr:nth-child(even) {
+    background-color: #eaf3ff; /* light blue for alternate rows */
+}
+
+.trips-table tbody tr:hover {
+    background-color: #dbeaff; /* slightly darker hover effect */
+}
+
+.trips-table td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    color: var(--primary-color);
+}
